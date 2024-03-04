@@ -1,7 +1,7 @@
 import { PropsSpent } from '@/interfaces/PropsSpent';
 import { FC, useEffect, useState } from 'react';
 
-import Alert from '../Alert';
+import Alert from './Alert';
 
 interface FormProps {
   animateModal: boolean;

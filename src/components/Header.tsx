@@ -2,8 +2,8 @@ import { PropsSpent } from '@/interfaces/PropsSpent';
 import { PropsState } from '@/interfaces/PropsState';
 import { FC } from 'react';
 
-import ControlBudget from '../ControlBudget';
-import NewBudget from '../NewBudget';
+import ControlBudget from './ControlBudget';
+import NewBudget from './NewBudget';
 
 interface HeaderProps extends Omit<PropsState, 'modal' | 'setModal'> {
   spents: PropsSpent[];
@@ -41,4 +41,3 @@ const Header: FC<HeaderProps> = ({
 };
 
 export default Header;
-

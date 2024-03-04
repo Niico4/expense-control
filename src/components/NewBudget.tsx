@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
 
-import Alert from '../Alert';
+import Alert from './Alert';
 import { PropsState } from '@/interfaces/PropsState';
 
 interface PropsNewBudget

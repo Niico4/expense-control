@@ -24,7 +24,7 @@ const ListSpent: FC<ListSpentProps> = ({
       <h2>{spentsToDisplay.length ? 'Gastos' : 'No hay Gastos aún'}</h2>
       {spentsToDisplay.map(({ id, nameSpent, amount, category, date }) => {
         return (
-          <ul key={id}>
+          <ul key={id} style={{ padding: 0 }}>
             <Spent
               id={id}
               nameSpent={nameSpent}
@@ -43,3 +43,4 @@ const ListSpent: FC<ListSpentProps> = ({
 };
 
 export default ListSpent;
+

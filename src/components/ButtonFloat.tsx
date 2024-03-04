@@ -1,6 +1,6 @@
 import { ButtonProps } from '@/interfaces/ButtonProps';
 import { FC } from 'react';
-import Icon from '../icon';
+import Icon from './icon';
 import AddIcon from '@/assets/icons/Add';
 
 const FloatButton: FC<ButtonProps> = ({ onClick }) => {

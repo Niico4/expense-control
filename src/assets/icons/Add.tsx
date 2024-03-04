@@ -18,7 +18,7 @@ const AddIcon: FC<SvgComponentProps> = (props) => (
       cy={160.77}
       r={160.77}
       style={{
-        fill: '#38bdf8',
+        fill: '#1f3f72',
       }}
     />
     <path d="M146.15 85.77h29.23v150h-29.23z" className="cls-2" />

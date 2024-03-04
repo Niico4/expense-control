@@ -74,7 +74,7 @@ const Spent: FC<Spent> = ({
             </div>
             <div className="descripcion-gasto">
               <p>{categoryName}</p>
-              <p>{nameSpent}</p>
+              <p className="nombre-gasto">{nameSpent}</p>
               <p className="fecha-gasto">
                 Agregado el: {''} <span>{date}</span>
               </p>
